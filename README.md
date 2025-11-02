@@ -14,25 +14,25 @@ The model helps care teams prioritize patients who require immediate attention, 
 
 The repository is organized as follows:
 
-├── create_env.sh # Bash script to create and set up the Python environment
-├── requirements.txt # Python dependencies required to run the project
-├── notebooks/ # All Jupyter Notebooks used for analysis and model building
-│ └── HilabsRound2PS.ipynb
-├── data/ # Raw and processed datasets
-│ ├── test/
-│ │ ├── patient.csv
-│ │ ├── diagnosis.csv
-│ │ ├── care.csv
-│ │ └── visit.csv
-│ └── train/
-│ ├── patient.csv
-│ ├── diagnosis.csv
-│ ├── care.csv
-│ ├── visit.csv
-│ └── risk.csv
-├── results/ # Generated outputs and prediction files
-│ └── Hivise2.0_HiLabs_Risk_Score.csv
-└── README.md # Setup and execution documentation
+├── create\_env.sh \# Bash script to create and set up the Python environment  
+├── requirements.txt \# Python dependencies required to run the project  
+├── /notebooks/ \# All Jupyter Notebooks used for analysis and model building  
+│ ├── HilabsRound2PS.ipynb  
+├── /data/ \# Raw and processed datasets
+| ├──/test
+│ | ├── patient.csv  
+│ | ├── diagnosis.csv  
+│ | ├── care.csv     
+│ | └── visit.csv  
+| ├──/train
+│ | ├── patient.csv  
+│ | ├── diagnosis.csv  
+│ | ├── care.csv  
+│ | ├── visit.csv  
+│ | └── risk.csv 
+├── /results/ \# Generated outputs and prediction files  
+│ └── TeamName\_HiLabs\_Risk\_Score.csv  
+└── README.md \# Setup and execution documentation
 
 ## **1\. Overall Approach & Data Architecture**
 
