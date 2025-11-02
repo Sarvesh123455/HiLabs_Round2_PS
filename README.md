@@ -19,12 +19,12 @@ The repository is organized as follows:
 ├── /notebooks/ \# All Jupyter Notebooks used for analysis and model building  
 │ ├── HilabsRound2PS.ipynb  
 ├── /data/ \# Raw and processed datasets  
-| ├──/test
+| ├──/test  
 │ | ├── patient.csv  
 │ | ├── diagnosis.csv  
 │ | ├── care.csv     
 │ | └── visit.csv  
-| ├──/train
+| ├──/train  
 │ | ├── patient.csv  
 │ | ├── diagnosis.csv  
 │ | ├── care.csv  
