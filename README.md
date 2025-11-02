@@ -31,7 +31,7 @@ The repository is organized as follows:
 │ | ├── visit.csv  
 │ | └── risk.csv 
 ├── /results/ \# Generated outputs and prediction files  
-│ └── TeamName\_HiLabs\_Risk\_Score.csv  
+│ └── Hivise2.0\_HiLabs\_Risk\_Score.csv  
 └── README.md \# Setup and execution documentation
 
 ## **1\. Overall Approach & Data Architecture**
