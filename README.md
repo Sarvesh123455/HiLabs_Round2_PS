@@ -18,13 +18,18 @@ The repository is organized as follows:
 ├── requirements.txt \# Python dependencies required to run the project  
 ├── /notebooks/ \# All Jupyter Notebooks used for analysis and model building  
 │ ├── HilabsRound2PS.ipynb  
-├── /data/ \# Raw and processed datasets  
-│ ├── patient.csv  
-│ ├── diagnosis.csv  
-│ ├── care.csv  
-│ ├── visit.csv  
-│ ├── risk.csv  
-│ └── pcms\_hackathon\_data.zip  
+├── /data/ \# Raw and processed datasets
+| ├──/test
+│ | ├── patient.csv  
+│ | ├── diagnosis.csv  
+│ | ├── care.csv     
+│ | └── visit.csv  
+| ├──/train
+│ | ├── patient.csv  
+│ | ├── diagnosis.csv  
+│ | ├── care.csv  
+│ | ├── visit.csv  
+│ | └── risk.csv 
 ├── /results/ \# Generated outputs and prediction files  
 │ └── TeamName\_HiLabs\_Risk\_Score.csv  
 └── README.md \# Setup and execution documentation
