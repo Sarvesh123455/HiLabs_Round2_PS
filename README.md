@@ -18,7 +18,7 @@ The repository is organized as follows:
 ├── requirements.txt \# Python dependencies required to run the project  
 ├── /notebooks/ \# All Jupyter Notebooks used for analysis and model building  
 │ ├── HilabsRound2PS.ipynb  
-├── /data/ \# Raw and processed datasets
+├── /data/ \# Raw and processed datasets  
 | ├──/test
 │ | ├── patient.csv  
 │ | ├── diagnosis.csv  
