@@ -29,9 +29,8 @@ The repository is organized as follows:
 │ | ├── diagnosis.csv  
 │ | ├── care.csv  
 │ | ├── visit.csv  
-│ | └── risk.csv 
-├── /results/ \# Generated outputs and prediction files  
-│ └── Hivise2.0\_HiLabs\_Risk\_Score.csv  
+│ | └── risk.csv  
+├── Hivise2.0\_HiLabs\_Risk\_Score.csv   
 └── README.md \# Setup and execution documentation
 
 ## **1\. Overall Approach & Data Architecture**
